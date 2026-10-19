@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=openflydigi3
+GenericName=Gamepad Configuration
+Comment=Configure Flydigi gamepads
+Exec=openflydigi3
+Icon=openflydigi3
+Terminal=false
+Categories=Utility;
+StartupNotify=true

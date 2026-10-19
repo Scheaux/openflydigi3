@@ -1,0 +1,11 @@
+# GUI
+PyQt6>=6.6
+
+# Hardware access (Linux-friendly)
+hidapi>=0.14        # raw HID (/dev/hidraw*) — replaces the Windows kernel driver
+pyserial>=3.5       # USB-CDC / serial for firmware flashing
+pyusb>=1.2          # libusb fallback for device claiming
+bleak>=0.21         # Bluetooth LE for wireless controllers
+
+# Optional: firmware flashing helper (esptool.py is bundled separately)
+# esptool>=4.7

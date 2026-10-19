@@ -1,0 +1,5 @@
+#!/bin/sh
+# AppImage entry point — launches the bundled openflydigi3 build.
+set -e
+HERE="$(dirname "$(readlink -f "$0")")"
+exec "$HERE/usr/app/openflydigi3/openflydigi3" "$@"

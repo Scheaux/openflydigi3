@@ -1,0 +1,1902 @@
+{
+  "CfgId": 0,
+  "LocalCfgId": 1,
+  "GPCfgId": 2,
+  "Name": "default config",
+  "Desc": null,
+  "LocalVersion": null,
+  "Config": {
+    "Version": "0.3",
+    "PackageLength": 76,
+    "Name": "",
+    "Basic": {
+      "LunpanMapping": {
+        "Rev": 0,
+        "Type": 0
+      },
+      "Motor": {
+        "MainSwitch": true,
+        "LeftMotor": {
+          "Type": 0,
+          "Min": 74,
+          "Max": 255,
+          "Scale": 60
+        },
+        "RightMotor": {
+          "Type": 0,
+          "Min": 100,
+          "Max": 240,
+          "Scale": 60
+        }
+      },
+      "Led": {
+        "Header": 32,
+        "Mode": 4,
+        "Peroid": 40,
+        "Light": 160,
+        "RgbColor0": [
+          0,
+          0,
+          255
+        ],
+        "RgbColor1": [
+          0,
+          0,
+          0
+        ]
+      },
+      "NewLedConfig": {
+        "Version": "AAI=",
+        "Type": 0,
+        "Loop_start": 0,
+        "Loop_end": 3,
+        "Loop_time": 44,
+        "Light_scale": 100,
+        "Rgb_num": 4,
+        "LedMode": 2,
+        "Reserve": "//////////////8=",
+        "LedGroups": [
+          {
+            "Units": [
+              {
+                "R": 204,
+                "G": 160,
+                "B": 40
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 204,
+                "B": 64
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 204,
+                "G": 160,
+                "B": 40
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 204,
+                "B": 64
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 204,
+                "G": 160,
+                "B": 40
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 204,
+                "B": 64
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 204,
+                "G": 160,
+                "B": 40
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 204,
+                "B": 64
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          },
+          {
+            "Units": [
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              {
+                "R": 0,
+                "G": 0,
+                "B": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "KeyMapping": [
+      {
+        "IsShowPic": true,
+        "IsShow": true,
+        "MapKey": "UP",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 13,
+        "ListPriority": 96,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "up",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "0",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "UP",
+        "KeyId": 0
+      },
+      {
+        "IsShowPic": true,
+        "IsShow": true,
+        "MapKey": "RIGHT",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 14,
+        "ListPriority": 93,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "right",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "1",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "RIGHT",
+        "KeyId": 1
+      },
+      {
+        "IsShowPic": true,
+        "IsShow": true,
+        "MapKey": "DOWN",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 15,
+        "ListPriority": 95,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "down",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "2",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "DOWN",
+        "KeyId": 2
+      },
+      {
+        "IsShowPic": true,
+        "IsShow": true,
+        "MapKey": "LEFT",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 16,
+        "ListPriority": 92,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "left",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "3",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "LEFT",
+        "KeyId": 3
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "A",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 9,
+        "ListPriority": 100,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "a",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "4",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "A",
+        "KeyId": 4
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "B",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 10,
+        "ListPriority": 99,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "b",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "5",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "B",
+        "KeyId": 5
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "SELECT",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 23,
+        "ListPriority": 90,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "select",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "6",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "SELECT",
+        "KeyId": 6
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "X",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 11,
+        "ListPriority": 98,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "x",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "7",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "X",
+        "KeyId": 7
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "Y",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 12,
+        "ListPriority": 97,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "y",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "8",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "Y",
+        "KeyId": 8
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "START",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 24,
+        "ListPriority": 89,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "start",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "9",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "START",
+        "KeyId": 9
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "LB",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 19,
+        "ListPriority": 88,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "lb",
+        "MapShowRes": "",
+        "KeyPosType": 1,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "10",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "LB",
+        "KeyId": 10
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "RB",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 20,
+        "ListPriority": 87,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "rb",
+        "MapShowRes": "",
+        "KeyPosType": 1,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "11",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "RB",
+        "KeyId": 11
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "LT",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 21,
+        "ListPriority": 86,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "lt",
+        "MapShowRes": "",
+        "KeyPosType": 1,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "12",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "LT",
+        "KeyId": 12
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "RT",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 22,
+        "ListPriority": 85,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "rt",
+        "MapShowRes": "",
+        "KeyPosType": 1,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "13",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "RT",
+        "KeyId": 13
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "THUMBL",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 17,
+        "ListPriority": 84,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "l3",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "14",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "THUMBL",
+        "KeyId": 14
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "THUMBR",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 18,
+        "ListPriority": 83,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "r3",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "15",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "THUMBR",
+        "KeyId": 15
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "THUMBL",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 7,
+        "ListPriority": 73,
+        "IsOwn": false,
+        "IsMap": true,
+        "IsFuncKey": false,
+        "ShowRes": "c",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "14",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "C",
+        "KeyId": 16
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "THUMBR",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 8,
+        "ListPriority": 72,
+        "IsOwn": false,
+        "IsMap": true,
+        "IsFuncKey": false,
+        "ShowRes": "z",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "15",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "Z",
+        "KeyId": 17
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M1",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 1,
+        "ListPriority": 77,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m1",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "18",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M1",
+        "KeyId": 18
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M2",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 2,
+        "ListPriority": 80,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m2",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "19",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M2",
+        "KeyId": 19
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M3",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 3,
+        "ListPriority": 78,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m3",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "20",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M3",
+        "KeyId": 20
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M4",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 4,
+        "ListPriority": 79,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m4",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "21",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M4",
+        "KeyId": 21
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M5",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 5,
+        "ListPriority": 76,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m5",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "22",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M5",
+        "KeyId": 22
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": true,
+        "MapKey": "M6",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 6,
+        "ListPriority": 85,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "m6",
+        "MapShowRes": "",
+        "KeyPosType": 2,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "23",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "M6",
+        "KeyId": 23
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "MENU",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "menu",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "24",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "MENU",
+        "KeyId": 24
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "unknow",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "25",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "unkonw",
+        "KeyId": 25
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "unknow",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "26",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "unkonw",
+        "KeyId": 26
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "HOME",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": true,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "home",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "27",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "HOME",
+        "KeyId": 27
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "BACK",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "back",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "28",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "BACK",
+        "KeyId": 28
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "unknow",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "29",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "unkonw",
+        "KeyId": 29
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "unknow",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "30",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "unkonw",
+        "KeyId": 30
+      },
+      {
+        "IsShowPic": false,
+        "IsShow": false,
+        "MapKey": "",
+        "MapMacroKeyList": null,
+        "OneMacroNewAction": null,
+        "Turbo": 0,
+        "TurboType": 0,
+        "Priority": 32,
+        "ListPriority": 32,
+        "IsOwn": false,
+        "IsMap": false,
+        "IsFuncKey": false,
+        "ShowRes": "unknow",
+        "MapShowRes": "",
+        "KeyPosType": 0,
+        "IsTriggerNative": false,
+        "TrigMode": 0,
+        "MapData": "31",
+        "MapType": 0,
+        "MenuFuncData": 0,
+        "Key": "unkonw",
+        "KeyId": 31
+      }
+    ],
+    "JoyMapping": {
+      "LeftJoystic": {
+        "Curve": {
+          "Point0_X": 63,
+          "Point0_Y": 63,
+          "Point1_X": 127,
+          "Point1_Y": 127,
+          "End": 127,
+          "Zero": 0,
+          "Type": 0
+        },
+        "Config": {
+          "OpenMethod": null,
+          "MapType": 0,
+          "MapData": null,
+          "Sens": 6,
+          "SensX": 6,
+          "SensY": 6,
+          "DeadZone": 10,
+          "DirectAlg": null,
+          "DirectNum": 8
+        }
+      },
+      "RightJoystic": {
+        "Curve": {
+          "Point0_X": 63,
+          "Point0_Y": 63,
+          "Point1_X": 127,
+          "Point1_Y": 127,
+          "End": 127,
+          "Zero": 0,
+          "Type": 0
+        },
+        "Config": {
+          "OpenMethod": null,
+          "MapType": 0,
+          "MapData": null,
+          "Sens": 6,
+          "SensX": 6,
+          "SensY": 6,
+          "DeadZone": 10,
+          "DirectAlg": null,
+          "DirectNum": 8
+        }
+      }
+    },
+    "TriggerMapping": {
+      "MainSwitch": true,
+      "Type": 0,
+      "LeftTrigger": {
+        "Type": 0,
+        "curve": {
+          "Type": 0,
+          "Zero": 0,
+          "End": 255,
+          "Point0_X": 0,
+          "Point0_Y": 0,
+          "Point1_X": 255,
+          "Point1_Y": 255
+        },
+        "AutoTrigger": {
+          "Mode": 3,
+          "VibrationBind": {
+            "type": 0,
+            "minFilter": 10,
+            "scale": 10,
+            "triggerParams": [
+              100,
+              1,
+              255,
+              70,
+              0
+            ]
+          },
+          "MixedBorder": 0,
+          "MixedParams": [
+            50,
+            30,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "TriggerMotor": {
+          "LineGear": {
+            "Type": 1,
+            "Min": 30,
+            "Max": 80,
+            "Filter": 5,
+            "Vibrlimit": 1,
+            "Scale": 50,
+            "TimeLimit": 0
+          },
+          "MicrGear": {
+            "Type": 255,
+            "Min": 40,
+            "Max": 120,
+            "Filter": 5,
+            "Vibrlimit": 0,
+            "Scale": 50,
+            "TimeLimit": 0
+          }
+        }
+      },
+      "RightTrigger": {
+        "Type": 0,
+        "curve": {
+          "Type": 0,
+          "Zero": 0,
+          "End": 255,
+          "Point0_X": 0,
+          "Point0_Y": 0,
+          "Point1_X": 255,
+          "Point1_Y": 255
+        },
+        "AutoTrigger": {
+          "Mode": 3,
+          "VibrationBind": {
+            "type": 0,
+            "minFilter": 10,
+            "scale": 10,
+            "triggerParams": [
+              100,
+              1,
+              255,
+              70,
+              0
+            ]
+          },
+          "MixedBorder": 0,
+          "MixedParams": [
+            50,
+            30,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "TriggerMotor": {
+          "LineGear": {
+            "Type": 1,
+            "Min": 30,
+            "Max": 80,
+            "Filter": 5,
+            "Vibrlimit": 1,
+            "Scale": 50,
+            "TimeLimit": 0
+          },
+          "MicrGear": {
+            "Type": 255,
+            "Min": 40,
+            "Max": 120,
+            "Filter": 5,
+            "Vibrlimit": 0,
+            "Scale": 50,
+            "TimeLimit": 0
+          }
+        }
+      }
+    },
+    "MotionMapping": {
+      "MapType": 0,
+      "OpenKeyId": 12,
+      "OpenMapMethod": 0,
+      "OpenKey": null,
+      "DeadZero": 0,
+      "Zero": 15,
+      "OpenKeyExtId": 0,
+      "OpenKeyExt": null,
+      "OpenKeyRes": null,
+      "OpenKeyExtRes": null,
+      "Mode": 0,
+      "Sensity": 25,
+      "SensityX": 25,
+      "SensityY": 20,
+      "SensX": 10,
+      "SensY": 10,
+      "SimType": 0
+    },
+    "Macro": {
+      "Nums": 0,
+      "ListOffset": [],
+      "ListMacro": []
+    },
+    "ConfigRandomBean": {
+      "Random": 65535
+    }
+  },
+  "IsShowOperatButton": true,
+  "IsShowSaveButton": false,
+  "IsReadOnlyConfigName": false,
+  "IsShowConfigNameBox": true,
+  "IsFocusConfigNameTextBox": false,
+  "IsCheckedToggleButton": false,
+  "FocusAction": null,
+  "SelectAllAction": null
+}

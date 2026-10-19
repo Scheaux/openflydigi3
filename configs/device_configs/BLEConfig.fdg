@@ -1,0 +1,1 @@
+{"DeviceName":"Flydigi BS1","DevId":"","ServiceUUID":65520,"WriteUUID":65522,"NotifyUUID":65521,"MaxSearchDeviceCnt":20,"OpenBleRetryInterval":200,"SendMsgRetryInterval":200,"AllowedSendMsgRetry":true,"AllowedCheckCallBackBoolean":true,"OpenBleMaxRetryCount":5,"MaxErrorReopenCount":5}
