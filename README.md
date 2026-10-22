@@ -45,7 +45,9 @@ QT_QPA_PLATFORM=offscreen python3 main.py
 ## Building standalone executables
 
 CI (`.github/workflows/build.yml`) builds a runnable app for every platform
-on each push, and publishes a GitHub Release when a `v*` tag is pushed:
+on each push. A successful push to `main` also updates a rolling
+**continuous** prerelease with fresh binaries, and pushing a `v*` tag
+(e.g. `v1.0.0`) publishes a full GitHub Release:
 
 - **Windows** — single-file `openflydigi3-<version>-windows-x86_64.exe`
 - **macOS** — zipped `.app` bundle (`openflydigi3-<version>-macos-<arch>.zip`)
